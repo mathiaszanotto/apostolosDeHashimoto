@@ -58,3 +58,38 @@ body {
   top: 40%;
 }
 
+.form-card {
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  padding: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0.6, 0.6, 0.6);
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 5.2rem;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-card-title {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  border: none;
+  font-weight: bold;
+}
+
+.autoresize {
+  border: none;
+  font-size: 0.9rem;
+}
+
+.btn {
+  background-color: #f7d736;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
